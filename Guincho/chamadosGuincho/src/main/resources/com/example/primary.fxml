@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="400.0" style="-fx-background-color: #3a4563;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controller.PrimaryController">
+   <children>
+      <Label text="ModalSure" textFill="WHITE">
+         <font>
+            <Font name="Dubai Regular" size="26.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="150.0" />
+         </VBox.margin>
+      </Label>
+      <Button mnemonicParsing="false" onAction="#switchToSecondary" prefHeight="31.0" prefWidth="150.0" style="-fx-background-color: #6a81de;" text="Solicitar guincho" textFill="WHITE">
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Dubai Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
